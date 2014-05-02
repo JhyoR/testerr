@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(173, 173, 173);
+}
+
+.first-step {
+  width: 404px;
+  margin: 54px auto 0;
+}
+
+.login {
+  position: absolute;
+  top: -1220px;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 33.5833333333%;
+  height: 291px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
+
+.login-but {
+  display: block;
+  float: right;
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  display: block;
+  float: left;
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  float: left;
+  width: 100px;
+  padding-top: 57px;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center top;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(173, 173, 173);
+}
+
+.upload {
+  width: 25.6666666666%;
+  height: 234px;
+  margin: 76px auto 0;
+  border: 2px dashed rgb(54, 54, 54);
+  border-radius: 5px;
+  background-color: rgb(42, 42, 42);
+}
+
+._button {
+  display: block;
+  border-radius: 3px;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+}
+
+._container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+._input {
+  display: block;
+  float: left;
+  width: 86.35235732%;
+  height: 48px;
+  margin-left: 7.4441687344%;
+  padding: 0 10px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.813em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.login ._button {
+  float: left;
+  clear: both;
+  width: 86.35235732%;
+  height: 50px;
+  margin: 25px 0 0 7.4441687344%;
+  background-color: rgb(65, 65, 65);
+  color: rgb(255, 255, 255);
+}
+
+.upload ._button {
+  width: 50.3289473684%;
+  height: 107px;
+  margin: 60px auto 0;
+  background-color: rgb(49, 49, 49);
+  color: rgb(42, 42, 42);
+}
+
+.text-1 {
+  background-image: url('../images/upload.svg');
+}
+
+.text-2 {
+  margin-left: 12.3762376237%;
+  background-image: url('../images/share.svg');
+}
+
+.text-3 {
+  display: inline-block;
+  margin-left: 12.3762376237%;
+  background-image: url('../images/feedback.svg');
+}
+
+._container-1 {
+  width: 100%;
+  height: 690px;
+  background-color: #343434;
+}
+
+._container-2 {
+  width: 96%;
+  height: 24px;
+  margin-top: 23px;
+}
+
+.login ._input-1 {
+  margin-top: 51px;
+}
+
+.login ._input-2 {
+  clear: both;
+  margin-top: 24px;
+}
