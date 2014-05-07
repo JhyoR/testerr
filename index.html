@@ -8,24 +8,110 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body class="body index clearfix">
-  <form class="login clearfix">
-    <input class="_input _input-1" name="Email address" placeholder="Email address" type="email">
-    <input class="_input _input-2" name="Password" placeholder="Password" type="password">
-    <button class="_button" type="submit">Log in</button>
-  </form>
-  <header class="_container _container-1 clearfix">
-    <header class="_container _container-2 clearfix">
-      <a class="logo" href="#">Testerr logo</a>
-      <a class="login-but" href="#">Log in</a>
-    </header>
-    <div class="first-step clearfix">
-      <p class="text text-1">Upload</p>
-      <p class="text text-2">Share</p>
-      <p class="text text-3">Get feedback</p>
+  <header class="mainheader clearfix">
+    <a class="logo js-logomain" href="#"></a>
+    <div class="progressindicator clearfix js-progressindicator">
+      <div class="container _container container-1 clearfix">
+        <p class="text">Upload</p>
+      </div>
+      <div class="container _container container-2 clearfix">
+        <p class="text">Share</p>
+      </div>
+      <div class="container _container container-3 clearfix">
+        <p class="text">Get feedback</p>
+      </div>
     </div>
-    <div class="upload clearfix">
-      <button onClick="window.location='upload.html';" class="_button">Upload</button>
-    </div>
+    <a class="username clearfix js-username" href="#">
+      <p class="text">Log in</p>
+      <div class="element _element"></div>
+    </a>
+    <form class="login clearfix js-loginmodal">
+      <div class="element _element"></div>
+      <div class="container _container clearfix">
+        <input class="_input _input-1" name="username or email" placeholder="User name" type="email">
+        <input class="_input _input-2" name="password" placeholder="Password" type="password">
+        <button class="_button" type="submit">Login</button>
+        <p class="text text-5">Register</p>
+        <p class="text text-6">Forgot Password</p>
+      </div>
+    </form>
   </header>
+  <div class="questionpan clearfix js-questionpan">
+    <button class="_button _button-2 js-sharetrigger">next:Share</button>
+    <button class="_button _button-3 js-reuploadtrigger">add more files</button>
+    <a class="panqtrigger clearfix js-panqtrigger" href="#">
+      <p class="text text-7">My question</p>
+      <p class="text text-8">0</p>
+      <p class="text text-9">/10</p>
+    </a>
+    <form class="generalqform clearfix">
+      <p class="text">General question</p>
+      <input class="_input" type="text">
+      <button class="_button">Submit      </button>
+    </form>
+  </div>
+  <section class="home clearfix js-sectionhome">
+    <div class="steps clearfix">
+      <div class="element _element"></div>
+      <div class="element _element element-4"></div>
+      <div class="element _element element-5"></div>
+    </div>
+    <div class="uploadbox clearfix js-uploadbox">
+      <button class="_button">UPLOAD</button>
+    </div>
+  </section>
+  <section class="upload js-sectionupload">
+    <div class="commentfile clearfix js-commentfile">
+      <div class="element _element"></div>
+      <div class="element _container clearfix">
+        <p class="text">Add question</p>
+        <input class="_input" name="comment here" type="text">
+        <button class="_button">Submit</button>
+      </div>
+    </div>
+    <div class="userfile js-userfile"></div>
+  </section>
+  <section class="share clearfix js-sectionshare">
+    <div class="container container-5 clearfix">
+      <div class="container _container container-6 clearfix">
+        <p class="text text-12">Link</p>
+        <input class="_input" placeholder="https://sasdejejfd" type="text">
+        <button class="_button _button-7">copy</button>
+      </div>
+      <div class="container _container clearfix">
+        <p class="text text-13">Social</p>
+        <button class="_button _button-8">Facebook connect</button>
+        <button class="_button _button-9">Twitter connect</button>
+        <button class="_button _button-10">Google connect</button>
+      </div>
+      <div class="container _container container-8 clearfix">
+        <p class="text text-14">Email</p>
+        <input class="_input" placeholder="https://sasdejejfd" type="text">
+        <button class="_button _button-11">add</button>
+      </div>
+      <div class="container container-9 clearfix">
+        <p class="text text-15">Get real feedback up to 100 Pro provider</p>
+        <button class="_button _button-12">Go PRO!</button>
+      </div>
+    </div>
+  </section>
+  <section class="reupload clearfix js-reupload">
+    <div class="filethumb clearfix">
+      <input class="_input _input-7" placeholder="Homepage.jpeg" type="text">
+      <a class="container clearfix js-thumbin" href="#">
+        <p class="text text-16">0</p>
+        <p class="text text-17">Question</p>
+        <button class="_button _button-13 js-hoverlayer">delete</button>
+      </a>
+      <input class="_input _input-8" placeholder="tags" type="text">
+      <button class="_button _button-14">Add</button>
+    </div>
+    <div class="container _container clearfix">
+      <button class="_button _button-15">upload</button>
+    </div>
+  </section>
+
+  <script src="js/jquery-min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
