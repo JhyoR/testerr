@@ -1,6 +1,6 @@
 body {
   background-color: #2a2a2a;
-  font: 400 0.75em/1.38 Helvetica;
+  font: 400 1em/1.38 Helvetica;
   color: rgb(255, 255, 255);
 }
 
@@ -8,7 +8,7 @@ body {
   position: absolute;
   top: 220px;
   left: 33%;
-  z-index: 35;
+  z-index: 41;
   width: 270px;
 }
 
@@ -16,17 +16,10 @@ body {
   float: left;
 }
 
-.container .container {
-  width: 100%;
-  height: 127px;
-  margin: 0 auto;
-  padding: 15px;
-}
-
 .element .text {
   margin: 9px auto 0;
   padding-left: 12px;
-  font-size: 1em;
+  font-size: 0.75em;
   color: rgb(0,0,0);
 }
 
@@ -55,25 +48,11 @@ body {
   color: rgb(107, 107, 107);
 }
 
-.generalqform {
-  float: left;
-  width: 42.6666666666%;
-  height: 300px;
-  margin: 51px 0 0 5.1666666666%;
-}
-
-.generalqform .text {
-  float: left;
-  width: 23.828125%;
-  font-size: 1.333em;
-  color: rgb(0,0,0);
-}
-
 .home {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 43;
+  z-index: 49;
   width: 100%;
   height: 700px;
 }
@@ -82,7 +61,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 62;
+  z-index: 57;
   width: 22.6666666666%;
   min-width: 257px;
 }
@@ -105,7 +84,7 @@ body {
 
 .login .text {
   margin-top: 9px;
-  font-size: 1em;
+  font-size: 0.75em;
   color: rgb(255, 255, 255);
 }
 
@@ -125,7 +104,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 74;
+  z-index: 69;
   width: 100%;
   height: 50px;
   margin: 0 auto;
@@ -138,7 +117,7 @@ body {
   top: -32px;
   left: 0;
   right: 0;
-  z-index: 51;
+  z-index: 77;
   width: 167px;
   margin: 0 auto;
   border-top-left-radius: 4px;
@@ -148,7 +127,6 @@ body {
 
 .panqtrigger .text {
   float: left;
-  font-size: 1.333em;
   color: rgb(0,0,0);
 }
 
@@ -157,7 +135,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 72;
+  z-index: 67;
   width: 32.4166666666%;
   height: 50px;
   margin: 0 auto;
@@ -174,7 +152,7 @@ body {
 .progressindicator .text {
   width: 100%;
   margin: 31px auto 0;
-  font-size: 1em;
+  font-size: 0.75em;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -183,7 +161,7 @@ body {
   position: fixed;
   bottom: -400px;
   left: 0;
-  z-index: 54;
+  z-index: 81;
   width: 100%;
   height: 400px;
   background-color: rgba(255, 255, 255, 0.89);
@@ -192,6 +170,25 @@ body {
   -o-transform: all 0.3;
   -ms-transform: all 0.3;
   transform: all 0.3;
+}
+
+.register {
+  position: absolute;
+  top: 204px;
+  left: 0;
+  right: 0;
+  z-index: 33;
+  width: 400px;
+  height: 258px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+}
+
+.register .text {
+  margin: 14px auto 0;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .reupload {
@@ -208,28 +205,44 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 28;
+  z-index: 34;
   width: 100%;
   height: 700px;
   margin: 0 auto;
 }
 
-.share .text {
-  font-size: 1.333em;
+.sharemodal {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  right: 0;
+  z-index: 27;
+  width: 450px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+.sharemodal .container {
+  width: 100%;
+  height: 127px;
+  margin: 0 auto;
+  padding: 15px;
 }
 
 .steps {
   width: 400px;
-  height: 95px;
-  margin: 82px auto 0;
+  margin: 102px auto 0;
 }
 
-.steps .element {
+.steps .text {
   float: left;
   width: 100px;
-  height: 95px;
-  border: 1px solid rgb(62, 62, 62);
-  border-radius: 4px;
+  padding-top: 57px;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center top;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .text {
@@ -237,11 +250,23 @@ body {
   line-height: 1.38;
 }
 
+.uniqform {
+  float: left;
+  width: 42.6666666666%;
+  height: 300px;
+  margin: 51px 0 0 5.1666666666%;
+}
+
+.uniqform .text {
+  float: left;
+  color: rgb(0,0,0);
+}
+
 .upload {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 36;
+  z-index: 42;
   width: 100%;
   height: 700px;
   overflow: auto;
@@ -250,7 +275,7 @@ body {
 .uploadbox {
   width: 27.1666666666%;
   height: 272px;
-  margin: 95px auto 0;
+  margin: 62px auto 0;
   border: 2px dashed rgb(69, 69, 69);
   border-radius: 6px;
   background-color: rgb(34, 34, 34);
@@ -262,7 +287,7 @@ body {
   top: 74px;
   left: 0;
   right: 0;
-  z-index: 29;
+  z-index: 35;
   width: 80%;
   height: 1000px;
   margin: 0 auto;
@@ -274,7 +299,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 65;
+  z-index: 60;
   width: 100px;
   height: 50px;
 }
@@ -294,7 +319,6 @@ body {
   display: inline-block;
   float: left;
   margin: 13px 0 0 20%;
-  font-size: 1.333em;
   color: rgb(255, 255, 255);
 }
 
@@ -309,7 +333,7 @@ body {
 ._input {
   display: block;
   padding-right: 10px;
-  font-size: 1.083em;
+  font-size: 0.813em;
   font-weight: 400;
   line-height: 1.38;
 }
@@ -339,7 +363,7 @@ body {
   height: 30px;
   margin: 6px auto 0;
   background-color: rgb(118, 238, 111);
-  font-size: 1em;
+  font-size: 0.75em;
   color: rgb(255, 255, 255);
 }
 
@@ -354,35 +378,11 @@ body {
 }
 
 .filethumb ._button {
-  font-size: 1em;
+  font-size: 0.75em;
 }
 
 .filethumb ._input {
   float: left;
-}
-
-.generalqform ._button {
-  float: left;
-  clear: both;
-  width: 39.84375%;
-  height: 38px;
-  margin-top: 17px;
-  background-color: rgb(118, 238, 111);
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.generalqform ._input {
-  float: left;
-  clear: both;
-  width: 100%;
-  height: 200px;
-  margin-top: 23px;
-  padding-left: 10px;
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24) inset;
-  color: rgb(0, 0, 0);
 }
 
 .login ._button {
@@ -390,7 +390,7 @@ body {
   height: 36px;
   margin: 15px auto 0;
   background-color: rgb(37, 37, 37);
-  font-size: 1em;
+  font-size: 0.75em;
   color: rgb(255, 255, 255);
 }
 
@@ -403,6 +403,16 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+.register ._input {
+  width: 364px;
+  height: 38px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  background-color: rgb(242, 242, 242);
+  color: rgb(0, 0, 0);
+}
+
 .reupload ._container {
   float: left;
   width: 186px;
@@ -412,11 +422,11 @@ body {
   background-color: rgb(40, 40, 40);
 }
 
-.share ._button {
+.sharemodal ._button {
   height: 33px;
 }
 
-.share ._input {
+.sharemodal ._input {
   float: left;
   clear: both;
   width: 81.9047619047%;
@@ -425,13 +435,36 @@ body {
   background-color: rgb(242, 242, 242);
 }
 
+.uniqform ._button {
+  float: left;
+  clear: both;
+  width: 39.84375%;
+  height: 38px;
+  margin-top: 17px;
+  background-color: rgb(118, 238, 111);
+  font-size: 0.75em;
+  color: rgb(255, 255, 255);
+}
+
+.uniqform ._input {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 200px;
+  margin-top: 23px;
+  padding-left: 10px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24) inset;
+  color: rgb(0, 0, 0);
+}
+
 .uploadbox ._button {
   width: 153px;
   height: 110px;
   margin: 78px auto 0;
   background-color: rgb(39, 39, 39);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.16);
-  font-size: 1.333em;
   color: rgb(255, 255, 255);
 }
 
@@ -452,109 +485,125 @@ body {
   background-size: 30px 26px;
 }
 
-.container-5 {
-  width: 450px;
-  margin: 108px auto 0;
-  background-color: rgba(255, 255, 255, 0.87);
-}
-
-.container-6,
-.container-8 {
+.container-5,
+.container-7 {
   background-color: rgb(221, 221, 221);
 }
 
-.container-9 {
+.container-8 {
   background-color: rgb(216, 143, 255);
 }
 
-.element-4,
-.element-5 {
-  margin-left: 50px;
-}
-
-.text-12,
-.text-13,
-.text-14 {
+.text-1 {
   display: inline-block;
-  float: left;
-  color: rgb(0,0,0);
+  padding: 5px;
 }
 
-.text-15 {
-  margin: 10px auto 0;
-  text-align: center;
-  color: rgb(151, 70, 194);
-}
-
-.text-16 {
-  margin-top: 52px;
-  font-size: 2em;
-}
-
-.text-17 {
-  font-size: 1em;
-}
-
-.text-5 {
+.text-10 {
   float: left;
   clear: both;
   width: 18.75%;
   margin-left: 5.1470588235%;
 }
 
-.text-6 {
+.text-11 {
   float: right;
   width: 37.1323529411%;
   margin-right: 5.1470588235%;
 }
 
-.text-7 {
-  display: inline-block;
-  padding: 5px;
+.text-12 {
+  background-image: url('../images/upload.svg');
 }
 
-.text-8 {
+.text-13 {
+  margin-left: 50px;
+  background-image: url('../images/share.svg');
+}
+
+.text-14 {
+  margin-left: 50px;
+  background-image: url('../images/feedback.svg');
+}
+
+.text-17,
+.text-18,
+.text-19 {
+  display: inline-block;
+  float: left;
+  color: rgb(0,0,0);
+}
+
+.text-2 {
   position: relative;
-  z-index: 49;
+  z-index: 75;
   width: 5.988023952%;
   margin: 6px 0 0 16.1676646706%;
 }
 
-.text-9 {
+.text-20 {
+  margin: 10px auto 0;
+  text-align: center;
+  color: rgb(151, 70, 194);
+}
+
+.text-21 {
+  margin-top: 52px;
+  font-size: 1.5em;
+}
+
+.text-22 {
+  font-size: 0.75em;
+}
+
+.text-3 {
   position: relative;
-  z-index: 50;
+  z-index: 76;
   width: 14.9700598802%;
   margin-top: 6px;
+}
+
+.text-5 {
+  float: left;
+  margin: 52px 0 0 6.8333333333%;
+  color: rgb(0,0,0);
 }
 
 .container ._button-10 {
   float: left;
   width: 30.9523809523%;
   margin: 17px 0 0 3.0952380952%;
-  background-color: rgb(238, 111, 111);
-  font-size: 1em;
+  background-color: rgb(53, 202, 222);
+  font-size: 0.75em;
   color: rgb(255, 255, 255);
 }
 
-.container ._button-11,
-.container ._button-7 {
+.container ._button-11 {
+  float: left;
+  width: 30.9523809523%;
+  margin: 17px 0 0 3.0952380952%;
+  background-color: rgb(238, 111, 111);
+  font-size: 0.75em;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-12,
+.container ._button-8 {
   float: left;
   width: 15.238095238%;
   margin: 14px 0 0 2.619047619%;
   background-color: rgb(118, 238, 111);
-  font-size: 1.333em;
-  color: rgb(0, 0, 0);
-}
-
-.container ._button-12 {
-  width: 38.8095238095%;
-  margin: 26px auto 0;
-  background-color: rgb(118, 238, 111);
-  font-size: 1.333em;
   color: rgb(0, 0, 0);
 }
 
 .container ._button-13 {
+  width: 38.8095238095%;
+  margin: 15px auto 0;
+  background-color: rgb(161, 91, 199);
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-14 {
   width: 51.5151515151%;
   height: 29px;
   margin: 30px auto 0;
@@ -562,43 +611,34 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.container ._button-15 {
+.container ._button-16 {
   width: 42.9347826086%;
   height: 68px;
   margin: 66px auto 0;
   background-color: rgb(222, 222, 222);
-  font-size: 1em;
+  font-size: 0.75em;
   color: rgb(0, 0, 0);
 }
 
-.container ._button-8 {
+.container ._button-9 {
   float: left;
   clear: both;
   width: 30.9523809523%;
   margin-top: 17px;
   background-color: rgb(57, 83, 217);
-  font-size: 1em;
+  font-size: 0.75em;
   color: rgb(255, 255, 255);
-}
-
-.container ._button-9 {
-  float: left;
-  width: 30.9523809523%;
-  margin: 17px 0 0 3.0952380952%;
-  background-color: rgb(53, 202, 222);
-  font-size: 1em;
-  color: rgb(255, 255, 255);
-}
-
-.container ._input-1 {
-  margin-top: 8px;
 }
 
 .container ._input-2 {
+  margin-top: 8px;
+}
+
+.container ._input-3 {
   margin-top: 14px;
 }
 
-.filethumb ._button-14 {
+.filethumb ._button-15 {
   float: left;
   width: 26.2626262626%;
   height: 26px;
@@ -607,14 +647,14 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.filethumb ._input-7 {
+.filethumb ._input-10 {
   width: 59.5959595959%;
   height: 27px;
   background-color: rgb(42, 42, 42);
   color: rgb(255, 255, 255);
 }
 
-.filethumb ._input-8 {
+.filethumb ._input-11 {
   clear: both;
   width: 70.202020202%;
   height: 26px;
@@ -624,26 +664,48 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.questionpan ._button-2 {
+.questionpan ._button-1 {
   position: absolute;
   top: -34px;
   right: 5%;
-  z-index: 53;
+  z-index: 79;
   width: 10.75%;
   height: 31px;
   background-color: rgb(118, 238, 111);
-  font-size: 1em;
+  font-size: 0.75em;
   color: rgb(0, 0, 0);
 }
 
-.questionpan ._button-3 {
+.questionpan ._button-2 {
   position: absolute;
   top: -34px;
   left: 5.1666666666%;
-  z-index: 52;
+  z-index: 78;
   width: 10.75%;
   height: 31px;
   background-color: rgb(118, 238, 111);
-  font-size: 1em;
+  font-size: 0.75em;
   color: rgb(0, 0, 0);
+}
+
+.register ._input-5 {
+  margin-top: 21px;
+}
+
+.register ._input-6,
+.register ._input-7 {
+  margin-top: 28px;
+}
+
+.share ._button-7 {
+  position: absolute;
+  top: 630px;
+  left: 0;
+  right: 0;
+  z-index: 28;
+  width: 21.3333333333%;
+  height: 44px;
+  margin: 0 auto;
+  background-color: rgb(118, 238, 111);
+  color: rgb(255, 255, 255);
 }
