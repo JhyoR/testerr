@@ -1,0 +1,114 @@
+body {
+  background-color: #2a2a2a;
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.element {
+  float: left;
+  width: 15.0943396226%;
+  height: 24px;
+  margin: 11px 0 0 12.5786163522%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 120px;
+  height: 50px;
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+  background-size: 90px 22px;
+  background-position: center center;
+}
+
+.mainheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgba(42, 42, 42, 0.83);
+}
+
+.mainheader .element {
+  background-image: url('../images/nav.png');
+  background-size: 24px 20px;
+}
+
+.mainheader .username {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 14;
+  width: 12.6666666666%;
+  height: 655px;
+  background-color: rgb(31, 31, 31);
+}
+
+.sidebar .element {
+  background-image: url('../images/nav2.png');
+  background-size: 20px 24px;
+}
+
+.sidebar .username {
+  float: right;
+}
+
+.text {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.username {
+  display: block;
+  width: 159px;
+  height: 50px;
+}
+
+.username .text {
+  float: left;
+  margin: 11px 0 0 17.610062893%;
+  color: rgb(255, 255, 255);
+}
+
+.text-5 {
+  float: right;
+  clear: both;
+  margin: 20px 10.5263157894% 0 0;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.text-2,
+.text-3,
+.text-4,
+.text-6 {
+  float: right;
+  clear: both;
+  margin: 21px 10.5263157894% 0 0;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.text-7 {
+  position: absolute;
+  bottom: 20px;
+  right: 9.2105263157%;
+  z-index: 13;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}

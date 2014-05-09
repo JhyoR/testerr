@@ -1,0 +1,173 @@
+body {
+  background-color: #ecf0f0;
+  font: 400 0.75em/1.38 Helvetica;
+  color: #8ca9af;
+}
+
+.container .container {
+  float: right;
+  width: 123px;
+  height: 22px;
+  margin-top: 29px;
+}
+
+.expand {
+  top: 144px;
+  left: 20.4629629629%;
+  z-index: 7;
+  width: 318px;
+  height: 331px;
+}
+
+.expand .open {
+  z-index: 4;
+}
+
+.expand .submit {
+  z-index: 5;
+}
+
+.expand .submitted {
+  z-index: 6;
+}
+
+.filefull {
+  position: relative;
+  width: 90%;
+  height: 1029px;
+  margin: 125px auto 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.image {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+
+.linktitle {
+  float: left;
+}
+
+.linktitle .text {
+  display: inline-block;
+  color: #8ca9af;
+}
+
+.mainheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 21;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: rgba(247, 247, 247, 0.93);
+}
+
+.open,
+.submit,
+.submitted {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 318px;
+}
+
+.progressbar {
+  float: left;
+  clear: both;
+  width: 99.9999999999%;
+  height: 9px;
+  margin-top: 6px;
+  border: 1px solid rgb(140, 169, 175);
+}
+
+.qpop {
+  display: block;
+  position: absolute;
+}
+
+._element {
+  display: block;
+  float: left;
+  width: 15.0537634408%;
+  height: 7px;
+  background-color: #50e3c2;
+}
+
+._image {
+  float: left;
+  width: 36px;
+  margin-left: 4.8780487804%;
+}
+
+.container-1 {
+  width: 960px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.image-5 {
+  z-index: 2;
+}
+
+.image-6 {
+  z-index: 1;
+}
+
+.linktitle-1 {
+  width: 173px;
+  height: 46px;
+  margin-top: 17px;
+}
+
+.linktitle-2 {
+  width: 281px;
+  margin: 25px 0 0 188px;
+}
+
+.qpop-2 {
+  top: 375px;
+  left: 84.4444444444%;
+  z-index: 3;
+  width: 27px;
+  height: 31px;
+  overflow: hidden;
+}
+
+.text-1 {
+  float: left;
+  font-size: 1em;
+}
+
+.text-2 {
+  float: left;
+  clear: both;
+  font-size: 1.583em;
+  letter-spacing: 0.5px;
+}
+
+.text-3 {
+  float: left;
+  font-family: 'PT Sans';
+  font-size: 1em;
+  letter-spacing: 0.5px;
+}
+
+.text-4 {
+  float: right;
+  font-family: 'PT Sans';
+  font-size: 1em;
+  letter-spacing: 0.5px;
+}
+
+.text-5 {
+  float: left;
+  width: 65.8536585365%;
+  margin-top: 3px;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(140, 169, 175);
+}
