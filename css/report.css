@@ -1,0 +1,180 @@
+body {
+  background-color: #ecf0f0;
+  font-size: 1em;
+}
+
+.action {
+  width: 95%;
+  min-width: 720px;
+  max-width: 1216px;
+  height: 39px;
+  margin: 26px auto 0;
+}
+
+.content {
+  width: 1222px;
+  height: 520px;
+  margin: 35px auto 0;
+}
+
+.image {
+  display: block;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 8.4703947368%;
+  height: 26px;
+  margin-top: 2px;
+}
+
+.mainheader {
+  position: relative;
+  width: 101.328125%;
+  min-width: 720px;
+  max-width: 1216px;
+  height: 30px;
+  margin: 24px auto 0;
+}
+
+.profile {
+  display: block;
+  position: relative;
+  float: right;
+  z-index: 23;
+  width: 2.6315789473%;
+  height: 30px;
+}
+
+._text {
+  display: inline-block;
+  float: left;
+  padding: 5px;
+  font: 400 0.813em/1.38 Helvetica;
+  color: rgb(140, 169, 175);
+}
+
+.logo ._image {
+  display: block;
+  float: left;
+  width: 97px;
+  height: auto;
+  overflow: hidden;
+}
+
+.mainheader ._container {
+  position: absolute;
+  top: 1px;
+  right: 17px;
+  z-index: 21;
+  width: 418px;
+  height: 27px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.profile ._image {
+  display: block;
+  float: left;
+  width: 30px;
+  height: auto;
+  overflow: hidden;
+}
+
+.image-1 {
+  width: 220px;
+}
+
+.image-2 {
+  width: 186px;
+}
+
+.image-3 {
+  width: 103px;
+}
+
+.image-4 {
+  width: 686px;
+}
+
+.image-5 {
+  width: 264px;
+  margin-left: 0.6546644844%;
+}
+
+.image-6 {
+  width: 255px;
+  margin-left: 0.5728314238%;
+}
+
+.image-7 {
+  clear: both;
+  width: 686px;
+  margin-top: 13px;
+}
+
+.image-8 {
+  width: 528px;
+  margin: 13px 0 0 0.6546644844%;
+}
+
+.action ._container-2 {
+  float: left;
+  width: 29.7697368421%;
+  height: 35px;
+  margin-top: 4px;
+}
+
+.action ._container-3 {
+  display: block;
+  float: left;
+  width: 60.7734806629%;
+  height: 35px;
+}
+
+.action ._container-4 {
+  display: block;
+  float: left;
+  width: 34.2541436464%;
+  height: 35px;
+  margin-left: 4.9723756906%;
+}
+
+.action ._container-5 {
+  float: right;
+  width: 24.8355263157%;
+  height: 39px;
+}
+
+.action ._container-6 {
+  display: block;
+  float: left;
+  width: 61.5894039735%;
+  height: 35px;
+  margin-top: 4px;
+}
+
+.action ._container-7 {
+  display: block;
+  float: left;
+  width: 34.1059602649%;
+  height: 39px;
+  margin-left: 4.3046357615%;
+}
+
+.mainheader ._text-1 {
+  margin-left: 15px;
+}
+
+.mainheader ._text-3 {
+  margin-left: 30px;
+}
+
+.mainheader ._text-2,
+.mainheader ._text-4 {
+  margin-left: 32px;
+}
