@@ -52,6 +52,13 @@ body {
 nav {
 	display: none;
 }
+nav a {
+-webkit-transition: all 300ms ease-in-out;
+-moz-transition: all 300ms ease-in-out;
+-ms-transition: all 300ms ease-in-out;
+-o-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
 nav a:hover {
 	background: rgb(140, 169, 175);
 	color: white;
