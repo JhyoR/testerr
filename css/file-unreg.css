@@ -30,6 +30,7 @@ body {
 }
 
 .loginpop {
+display: none;
   position: absolute;
   top: -3px;
   right: -6px;
