@@ -12,3 +12,4 @@ $(".profile")
 	.mouseleave(function() {
 		$(".mainnav").hide();
 	});
+	

@@ -20,6 +20,8 @@ $(".profile")
 	.mouseleave(function() {
 		$("nav").hide();
 	});
-
+$(".upload-box").click(function(){
+	$(this).prev().clone().insertBefore(this);
+});
 
 });
