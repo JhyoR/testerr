@@ -45,6 +45,13 @@ body {
   height: 30px;
   margin: 0 auto;
 }
+nav {
+	display: none;
+}
+nav a:hover {
+	background: rgb(140, 169, 175);
+	color: white;
+}
 
 .profile {
   display: block;
@@ -58,7 +65,7 @@ body {
 .question-section {
   display: block;
   position: fixed;
-  bottom: 0;
+  bottom: -340px;
   left: 0;
   right: 0;
   z-index: 6;
@@ -99,7 +106,7 @@ body {
   position: absolute;
   top: -24px;
   left: -2.6315789474%;
-  z-index: 7;
+  z-index: -10;
   width: 105.2631578947%;
   height: 80px;
   background-color: rgba(236, 240, 240, 0.57);
