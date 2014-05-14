@@ -104,6 +104,9 @@ section.top {
 	left: 0px;
 	
 }
+.uploadbox img:hover {
+	background: rgba(0,0,0,0.18)
+}
 .uploadbox ._image {
   width: 288px;
 }

@@ -50,6 +50,13 @@ body {
   height: 30px;
   margin: 24px auto 0;
 }
+.mainnav {
+	display: none;
+}
+.mainnav a:hover {
+	background: rgb(140, 169, 175);
+	color: white;
+}
 
 .profile {
   display: block;
