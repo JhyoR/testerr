@@ -6,6 +6,7 @@ $(".question-section").on("click", function(){
 		$(this).addClass("expand").css("bottom" , "0px");
 	}
 });
+
 $(".profile")
 	.mouseenter(function() {
 		$("nav").show("500");
@@ -19,6 +20,14 @@ $(".profile")
 	})
 	.mouseleave(function() {
 		$("nav").hide();
+	});
+	
+$(".file-box")
+	.mouseenter(function() {
+		$(this).find("._image").css("margin-top" , "0px");
+	})
+	.mouseleave(function() {
+		$(this).find("._image").css("margin-top" , "177px");
 	});
 $(".upload-box").click(function(){
 	$(this).prev().clone().insertBefore(this);
