@@ -23,8 +23,9 @@ $(".questionpanel").on("click", function(){
 		$(this).addClass("expand").css("bottom" , "0px");
 	}
 });
-$(".sharemodal").click(function(){
-	$(this).hide();
+
+$(".button0").click(function(){
+	$(".sharemodal").hide();
 	$(".share-break").show();
 });
 
