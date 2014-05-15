@@ -3,10 +3,10 @@ body {
   font-size: 1em;
 }
 
-.file {
+.filescreen {
   position: relative;
   float: left;
-  width: 89.296875%;
+  width: 90%;
   height: 838px;
   margin: 109px 0 0 5.390625%;
   background-color: rgb(255, 255, 255);
