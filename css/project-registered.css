@@ -10,13 +10,29 @@ display: none;
 	z-index: 1000;
 	background:rgba(0,0,0,0.75);
 }
+.hidden-btn2 {
+	position: absolute;
+	display: block;
+	width: 134px;
+	height: 30px;
+	z-index: 1003;
+	margin: 374px 0px 10px 50px;
+}
+.hidden-btn2:hover {
+	background: rgba(255,230,186,0.69);
+}
+.promodals div {
+	width: 712px;
+	height: 497px;
+	margin: 10% auto 0;
+}
+
 .promodals img {
 position: relative;
 z-index: 1002;
 	display: block;
 	width: 712px;
 	height: 497px;
-	margin: 10% auto 0;
 }
 .promodals .modalbg {
 z-index: 1001;
@@ -133,6 +149,13 @@ position: absolute;
   display: block;
   float: left;
   width: 16.8585526315%;
+  height: 28px;
+  margin: 2px 0 0 14px;
+}
+.title-projectname-pro {
+  display: none;
+  float: left;
+  width: 306px;
   height: 28px;
   margin: 2px 0 0 14px;
 }

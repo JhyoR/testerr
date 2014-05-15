@@ -40,5 +40,11 @@ $(".modalbg").click(function(){
 $(".hidden-btn1").click(function(){
 	$(".promodals").show();
 });
+$(".hidden-btn2").click(function(){
+	$(".title-projectname").hide();
+	$(".title-projectname-pro").show();
+	$(".promodals").hide();
+	$(".question-section").removeClass("expand").css("bottom" , "-340px");
+});
 
 });
