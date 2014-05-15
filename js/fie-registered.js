@@ -32,8 +32,12 @@ $(".profile")
 		$("nav").hide();
 	});
 
-
-
-
+$(".question-section").on("click", function(){
+	if ($(this).is(".expand")) {
+		$(this).removeClass("expand").css("bottom" , "-340px");
+	} else {
+		$(this).addClass("expand").css("bottom" , "0px");
+	}
+});
 
 });

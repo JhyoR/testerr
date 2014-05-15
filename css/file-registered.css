@@ -2,7 +2,22 @@ body {
   background-color: #ecf0f0;
   font-size: 1em;
 }
-
+.question-section {
+  display: block;
+  position: fixed;
+  bottom: -340px;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  width: 100%;
+  height: 384px;
+  margin: 0 auto;
+  -webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
 .filescreen {
   position: relative;
   float: left;
