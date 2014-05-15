@@ -56,7 +56,10 @@ body {
 }
 
 .pin {
-  float: left;
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
   width: 31px;
   height: 31px;
   background-image: url('../images/pin.png');
@@ -105,7 +108,10 @@ body {
 }
 
 .screen {
-  position: relative;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
   float: left;
   width: 287px;
   height: 325px;
@@ -146,6 +152,9 @@ body {
 
 .viewport .image {
   width: 288px;
+  height: auto;
+  top: 0;
+  margin-top: 0;
 }
 
 .wrap {
@@ -163,7 +172,7 @@ body {
 ._element {
   display: block;
   float: left;
-  width: 38.4905660377%;
+  width: 10px;
   height: 9px;
   background-color: rgb(86, 232, 188);
 }
