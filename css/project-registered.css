@@ -2,6 +2,32 @@ body {
   background-color: #ecf0f0;
   font-size: 1em;
 }
+.promodals {
+display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	background:rgba(0,0,0,0.75);
+}
+.promodals img {
+position: relative;
+z-index: 1002;
+	display: block;
+	width: 712px;
+	height: 497px;
+	margin: 10% auto 0;
+}
+.promodals .modalbg {
+z-index: 1001;
+float: left;
+	position: absolute !important;
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	top: 0;
+}
 
 .file-box {
   display: block;
@@ -80,7 +106,7 @@ nav a:hover {
   left: 0;
   right: 0;
   z-index: 6;
-  width: 100%;
+  width: auto;
   height: 384px;
   margin: 0 auto;
   -webkit-transition: all 300ms ease;
@@ -88,6 +114,19 @@ nav a:hover {
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
+}
+
+.hidden-btn1 {
+left: 1143px;
+top: 75px;
+position: absolute;
+	display: block;
+	width: 80px;
+	height: 30px;
+}
+.hidden-btn1:hover {
+
+	background: rgba(255,215,215,0.49);
 }
 
 .title-projectname {

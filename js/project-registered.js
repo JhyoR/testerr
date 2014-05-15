@@ -1,9 +1,9 @@
 $(document).ready(function () {
-$(".question-section").on("click", function(){
-	if ($(this).is(".expand")) {
-		$(this).removeClass("expand").css("bottom" , "-340px");
+$(".question-trigger").on("click", function(){
+	if ($(".question-section").is(".expand")) {
+		$(".question-section").removeClass("expand").css("bottom" , "-340px");
 	} else {
-		$(this).addClass("expand").css("bottom" , "0px");
+		$(".question-section").addClass("expand").css("bottom" , "0px");
 	}
 });
 
@@ -31,6 +31,14 @@ $(".file-box")
 	});
 $(".upload-box").click(function(){
 	$(this).prev().clone().insertBefore(this);
+});
+
+$(".modalbg").click(function(){
+	$(".promodals").hide();
+});
+
+$(".hidden-btn1").click(function(){
+	$(".promodals").show();
 });
 
 });
