@@ -26,7 +26,7 @@ body {
 }
 
 .mainnav {
-  position: relative;
+  position: fixed;
   float: left;
   width: 188px;
   height: 700px;
@@ -34,24 +34,45 @@ body {
 }
 
 .mainsection {
-  position: relative;
-  float: left;
+	margin: 0 auto;
   width: 884px;
   height: 700px;
 }
 
 .sidebar {
-  float: left;
+	position: fixed;
+	right: 0px;
+	top: 0;
+  float: right;
   width: 199px;
   height: 687px;
   background-color: #c0d4d8;
 }
 
-._container {
+.mainnav ._container {
   display: block;
   width: 100%;
   height: 50px;
   background-color: #005e69;
+  color: #52a6af;
+    float: left;
+  clear: both;
+  margin-top: 1px;
+}
+
+.mainnav ._container-1 {
+  margin-top: 0px;
+}
+.mainnav ._container:hover {
+  background-color: #084E59;
+}
+.mainnav .active {
+  background-color: #4BD3E7;
+  color: #ffffff;
+}
+.mainnav .active:hover {
+  background-color: #4BD3E7;
+  color: #ffffff;
 }
 
 ._image {
@@ -95,15 +116,6 @@ body {
   margin: 32px 0 0 11.0552763819%;
 }
 
-.mainnav ._container-1,
-.mainnav ._container-2,
-.mainnav ._container-3,
-.mainnav ._container-4,
-.mainnav ._container-5 {
-  float: left;
-  clear: both;
-  margin-top: 1px;
-}
 
 .mainnav ._container-6 {
   position: absolute;
@@ -112,44 +124,44 @@ body {
   z-index: 10;
 }
 
-.mainnav ._image-10 {
-  position: absolute;
-  top: 17px;
-  right: 16px;
-  z-index: 7;
-  width: 16px;
-}
-
-.mainnav ._image-4 {
+.mainnav ._image-3 {
   float: left;
   width: 17px;
   margin: 16px 0 0 18px;
 }
 
-.mainnav ._image-6 {
+.mainnav ._image-5 {
   float: left;
   width: 16px;
   margin: 15px 0 0 18px;
 }
 
-.mainnav ._image-3,
-.mainnav ._image-5,
-.mainnav ._image-7 {
+.mainnav ._image-2,
+.mainnav ._image-4,
+.mainnav ._image-6 {
   float: left;
   width: 16px;
   margin: 16px 0 0 18px;
 }
 
-.mainnav ._image-8 {
+.mainnav ._image-7 {
   float: left;
   width: 23px;
   margin: 12px 0 0 10px;
 }
 
-.mainnav ._image-9 {
+.mainnav ._image-8 {
   float: right;
   width: 20px;
   margin: 17px 43px 0 0;
+}
+
+.mainnav ._image-9 {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  z-index: 11;
+  width: 16px;
 }
 
 .mainnav ._text-3 {

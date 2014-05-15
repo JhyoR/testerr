@@ -27,7 +27,7 @@ body {
 }
 
 .mainnav {
-  position: relative;
+  position: fixed;
   float: left;
   width: 188px;
   height: 700px;
@@ -35,13 +35,16 @@ body {
 }
 
 .mainsection {
-  float: left;
+	margin: 0 auto;
   width: 884px;
   height: 700px;
 }
 
 .sidebar {
-  float: left;
+	position: fixed;
+	right: 0px;
+	top: 0;
+  float: right;
   width: 199px;
   height: 687px;
   background-color: #c0d4d8;
@@ -61,13 +64,30 @@ body {
   margin: 24px 0 0 37.330316742%;
 }
 
-._container {
+.mainnav ._container {
   display: block;
   width: 100%;
   height: 50px;
   background-color: #005e69;
+  color: #52a6af;
+    float: left;
+  clear: both;
+  margin-top: 1px;
 }
-
+.mainnav ._container-1 {
+  margin-top: 0px;
+}
+.mainnav ._container:hover {
+  background-color: #084E59;
+}
+.mainnav .active {
+  background-color: #4BD3E7;
+  color: #ffffff;
+}
+.mainnav .active:hover {
+  background-color: #4BD3E7;
+  color: #ffffff;
+}
 ._image {
   display: block;
   height: auto;
@@ -100,7 +120,6 @@ body {
 
 .mainnav ._text {
   margin-top: 16px;
-  color: #52a6af;
 }
 
 .sidebar ._image {
@@ -118,16 +137,6 @@ body {
 .tool2 ._image {
   float: right;
   width: 313px;
-}
-
-.mainnav ._container-1,
-.mainnav ._container-2,
-.mainnav ._container-3,
-.mainnav ._container-4,
-.mainnav ._container-5 {
-  float: left;
-  clear: both;
-  margin-top: 1px;
 }
 
 .mainnav ._container-6 {

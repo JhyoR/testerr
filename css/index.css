@@ -59,6 +59,13 @@ body {
   background-position: 50% -572%;
   overflow: hidden;
 }
+.pricing {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 400px;
+	background: #ffffff;
+}
 
 .uploadbox {
   display: block;
