@@ -1,0 +1,25 @@
+#upload0 {
+	-webkit-transition: background 300ms ease;
+	-moz-transition: background 300ms ease;
+	-ms-transition: background 300ms ease;
+	-o-transition: background 300ms ease;
+	transition: background 300ms ease;
+}
+#nav-main {
+	width: auto !important;
+}
+#nav {
+	-webkit-transition: width 300ms ease;
+	-moz-transition: width 300ms ease;
+	-ms-transition: width 300ms ease;
+	-o-transition: width 300ms ease;
+	transition: width 300ms ease;
+}
+
+#upload0 {
+-webkit-transition: all 200ms ease;
+-moz-transition: all 200ms ease;
+-ms-transition: all 200ms ease;
+-o-transition: all 200ms ease;
+transition: all 200ms ease;
+}
